@@ -1,0 +1,109 @@
+1. assignment 10:
+#!/bin/bash
+apt-get update
+apt-get install -y nginx
+systemctl start nginx
+systemctl enable nginx
+apt-get install -y git
+curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+apt-get install -y nodejs
+git clone http://github.com/sudip7407/Repo1.git
+cd Repo1
+npm install
+node index.js
+
+2. assignment 11: balance the load
+#!/bin/bash
+apt-get update
+apt-get install -y nginx
+systemctl start nginx
+systemctl enable nginx
+apt-get install -y git
+curl -SL https://deb.nodesource.com/setup_16.x|sudo -E bash -
+apt-get install -y nodejs
+git clone http://github.com/sudip7407/Repo1.git
+cd Repo1
+npm install
+node index.js
+
+*) In Terminal:
+sudo apt -get update
+sudo apt -get upgrade
+sudo nano infy.sh
+
+#!/bin/bash
+while(true)
+do
+        echo "Inside loop"
+done
+
+then ctrl+o+enter
+ctrl+x for exit
+
+sudo chmod +x infy.sh
+sh infy.sh
+
+3.assignment 7:
+asg 7
+hosting website in ec2
+
+sudo apt -get upgate
+sudo apt -get upgrade
+sudo apt -get install nginx
+
+after sftp me html
+
+cd /var/www
+sudo chmod 777 html
+
+4.assignment 8:download in local machine
+git init
+git config --global user.name
+git config --global email.name
+git config --global --list
+git init
+git add .
+git status 
+git commit -m "done"
+git remote add origin[url]
+git push -u origin master
+git remote add origin http....
+
+download in local machine
+aws8
+git clone https://github.com/sudip7407/repo2.git
+ls repo2
+
+git config --global --list  ///git config --global --unset-all user.email
+
+git init
+git config --global user.name name
+git config --global email.name  eailm
+git config --global --list
+git init
+git add .
+git status 
+git commit -m "done"
+git remote add origin[url]
+git push -u origin master
+git remote add origin http....
+
+
+5.assignment 9:
+pwd
+sudo apt -get upgate
+sudo apt -get upgrade
+sudo apt -get install nginx
+nginx -v
+curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+sudo apt install node.js
+node.js -v
+git clone "repo link"
+ls
+cd [name of files]
+ls
+npm install
+npm -v
+node index.js
+
+
